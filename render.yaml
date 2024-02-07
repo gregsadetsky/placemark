@@ -10,7 +10,6 @@ services:
       blitz build
     startCommand: blitz start
     envVars:
-      - fromGroup: app-production
       - key: NODE_ENV
         value: production
       - key: DATABASE_URL
